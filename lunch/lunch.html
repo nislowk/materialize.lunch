@@ -1,0 +1,162 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Lunch</title>
+
+  <!-- CSS  -->
+  <stylesheet href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <stylesheet href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+<nav> 
+  <div class="nav-wrapper">
+       <div class="nav-wrapper">
+    <div class="col s12">
+      <ul class="tabs">
+        <li class="tab col s3"><a href="#test1" class="flow-text active">Home</a></li>
+        <li class="tab col s3"><a href="#test2" class="flow-text">Create</a></li>
+        <li class="tab col s3"><a href="#test3" class="flow-text">Vote</a></li>
+        <li class="tab col s3"><a href="#test4" class="flow-text">Order</a></li>
+      </ul>
+    </div>
+    <div id="test1" class="col s12">HOME</div>
+    <div id="test2" class="col s12">CREATE</div>
+    <div id="test3" class="col s12">ORDER</div>
+    <div id="test4" class="col s12">VOTE</div>
+  </div>
+    <div class="col s12">
+      <ul class="right side-nav">
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="parallax"><img src="/bower_components/parallax-template/background1.jpg" alt="Unsplashed background img 2"></div>
+      <div class="container">
+        <br><br>
+        <h1 class="header center white-text">Lunch</h1>
+        <div class="row center">
+          <h2 class="center"><i class="mdi-maps-local-restaurant deep-orange-text lighten-2"></i></h2>
+          <h5 class="header col s12 light">Team-Lunch Made To Order</h5>
+        </div>
+        <div class="row center">
+            <!--replace href with signin view -->
+          <a id="download-button" class="btn-large waves-effect waves-light grey lighten-1">{{> loginButtons}}</a>
+        </div>
+        <br><br>
+      </div>
+    </div>
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4 l4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="mdi-image-flash-on"></i></h2>
+            <h5 class="flow-text center">Speeds up development</h5>
+
+            <p class="flow-text light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4 l4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="mdi-social-group"></i></h2>
+            <h5 class="flow-text center">User Experience Focused</h5>
+
+            <p class="flow-text light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4 l4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="mdi-action-settings"></i></h2>
+            <h5 class="flow-text center">Easy to work with</h5>
+
+            <p class="flow-text light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="divider"></div>
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h4 class="flow-text">Contact Us</h4>
+          </div>
+        </div>
+      <div class="row">
+            <form class="col s12">
+            <div class="section">
+            <i class="mdi-action-account-circle prefix small"></i>
+                <label for="icon_prefix" class="flow-text">First Name</label>
+                <input id="icon_prefix" type="text" class="validate">
+            </div>
+            <div class="section">
+            <i class="mdi-communication-email prefix small"></i>
+                <label for="icon_prefix" class="flow-text">E-Mail</label>
+                <input id="icon_prefix" type="text" class="validate">
+            </div>
+            <div class="section">
+            <i class="mdi-editor-mode-edit prefix small"></i>
+                 <label for="icon_prefix2" class="flow-text">Message</label>
+                 <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+            </div>
+            <div class="section center">
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit<i class="mdi-content-send right"></i></button>
+            </div>
+           </form>
+       </div>
+     </div>
+  </div>
+<div class="divider"></div>
+    <div class="section">
+      <div class="container">
+        <div class="row center">
+          <h5 class="flow-text col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+
+  <footer class="page-footer teal lighten-2 class">
+    <div class="container">
+      <div class="row center">
+        <div class="col s4">
+          <h5 class="flow-text white-text">What We Do</h5>
+        </div>
+        <div class="col s4">
+          <h5 class="flow-text white-text">Settings</h5>
+        </div>
+        <div class="col s4">
+          <h5 class="flow-text white-text">Connect</h5>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright center">
+      <div class="container">
+      <a class="flow-text blue-grey-text" href="https://fuzzproductions.com">© Fuzz Productions 158 Roebling Street, Brooklyn, NY 11211 (212) 219-7696</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+      $(document).ready(function(){
+      $('.parallax').parallax();
+      $(".button-collapse").sideNav();
+      $(".dropdown-button").dropdown();
+      });
+  </script>
+
+  </body>
